@@ -24,7 +24,7 @@
 ## 快速开始
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/chat-assistant.git
+git clone https://github.com/Landerssss/chat-assistant.git
 
 # 安装依赖
 pip install -r requirements.txt
