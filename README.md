@@ -24,7 +24,7 @@ A Python-based chat application integrated with OpenAI API, featuring local encr
 ## Quick Start
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/chat-assistant.git
+git clone https://github.com/Landerssss/chat-assistant.git
 
 # Install dependencies
 pip install -r requirements.txt
