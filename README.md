@@ -31,3 +31,5 @@ pip install -r requirements.txt
 
 # Launch application
 python main.py --api_key your_openai_key
+![bd3a898d4f0dc9aaec7e4d2f4f9b3c1e](https://github.com/user-attachments/assets/010ea6ea-c11f-47b5-b622-cdee5d260104)
+![71530d9ff73207f0a9ba735e8a793e46](https://github.com/user-attachments/assets/318ce1ca-01e0-413d-9c6c-bd98f788019d)
