@@ -1,33 +1,3 @@
-# 智能对话助手 (Intelligent Chat Assistant)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-## 项目描述
-基于Python开发的对话软件，已深度集成OpenAI API，支持本地加密存储对话历史。当前版本（V0-V2）已完成核心对话框架搭建，未来将逐步添加自定义API接入、智能文档生成等企业级功能。项目遵循MIT开源协议。
-
-## 核心特性
-- 🤖 实时AI对话（支持GPT-3.5/4）
-- 📁 本地AES加密存储对话记录
-- 🎨 Markdown格式消息渲染
-- ⚙️ 模块化架构设计
-
-## 版本路线图
-| 版本 | 状态   | 核心功能                          |
-|------|--------|-----------------------------------|
-| V0   | ✅ 完成 | 基础对话框架搭建                 |
-| V1   | ✅ 完成 | 对话历史存储系统                 |
-| V2   | ✅ 完成 | 多主题UI界面                     |
-| V3   | 🚧 开发 | 自定义API接入端口                |
-| V4   | ⏳ 计划 | 智能流程图/PPT生成               |
-| V5   | ⏳ 计划 | 企业级部署方案                   |
-
-## 快速开始
-```bash
-# 克隆仓库
-git clone https://github.com/Landerssss/chat-assistant.git
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 启动程序
-python main.py --api_key your_openai_key
+ChatPro V3 - AI 生产力工作台ChatPro V3 是一个轻量级但功能强大的桌面 AI 助手。与普通的聊天机器人不同，V3 专注于生产力转换。它不仅能聊天，还能将对话内容直接生成 PPT、Word 文档和流程图。✨ V3 新特性⚡ 免费/低成本模型优先：默认配置 SiliconFlow (DeepSeek-V3/R1)，享受极低成本的高智商 AI。📊 一键 PPT 生成：AI 生成大纲 -> 自动转换为 .pptx 格式（无需安装 Office）。🔀 自动绘图：内置 Mermaid 支持，将文本描述自动渲染为高清流程图/架构图 PNG。📄 文档导出：支持导出为 Word (.docx)。🛠️ 纯 Python 构建：基于 Tkinter 现代化改造，无需复杂的 Web 框架，单文件即可运行。🚀 快速开始1. 安装依赖V3 需要以下库来处理图形和文档生成：pip install openai requests python-pptx python-docx pillow
+2. 运行python V3.py
+3. 配置 API启动软件后，点击右上角 ⚙️ 设置API。输入你的 API Key（推荐使用 SiliconFlow 或 DeepSeek 官方 Key）。Base URL 默认为 SiliconFlow 地址，如使用 OpenAI 官方可留空或修改。📂 生成功能演示功能触发指令输出PPT点击"生成PPT"按钮 或 输入 "帮我生成一个关于...的PPT"自动保存 PPT_xxxx.pptx流程图点击"生成流程图"按钮 或 输入 "画一个...的流程图"自动通过 Mermaid.ink 渲染并下载 Flow_xxxx.pngWord点击"导出Word"保存为 output.docx🛠️ 技术栈GUI: Python Tkinter (ttk)AI Core: OpenAI Python SDK (Compatible with DeepSeek/SiliconFlow)Docs: python-pptx, python-docxDiagrams: Mermaid.ink API📝 版本历史V3.0 (Current): 重构 UI，增加文件生成功能，支持 DeepSeek。V2.0: 基础聊天功能，本地历史记录。
